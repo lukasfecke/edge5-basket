@@ -15,6 +15,34 @@
 		804D6CE71E89A08C00C98053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804D6CE61E89A08C00C98053 /* Assets.xcassets */; };
 		804D6CEA1E89A08C00C98053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804D6CE81E89A08C00C98053 /* LaunchScreen.storyboard */; };
 		804D6CF51E89A08C00C98053 /* basketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6CF41E89A08C00C98053 /* basketTests.m */; };
+		804D6D071E89A25600C98053 /* BTFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D061E89A25600C98053 /* BTFood.m */; };
+		804D6D081E89A25600C98053 /* BTFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D061E89A25600C98053 /* BTFood.m */; };
+		804D6D0B1E89A27400C98053 /* BTBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D0A1E89A27400C98053 /* BTBean.m */; };
+		804D6D0C1E89A27400C98053 /* BTBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D0A1E89A27400C98053 /* BTBean.m */; };
+		804D6D0F1E89A28300C98053 /* BTMilk.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D0E1E89A28300C98053 /* BTMilk.m */; };
+		804D6D101E89A28300C98053 /* BTMilk.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D0E1E89A28300C98053 /* BTMilk.m */; };
+		804D6D131E89A28F00C98053 /* BTEgg.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D121E89A28F00C98053 /* BTEgg.m */; };
+		804D6D141E89A28F00C98053 /* BTEgg.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D121E89A28F00C98053 /* BTEgg.m */; };
+		804D6D171E89A29E00C98053 /* BTTomato.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D161E89A29E00C98053 /* BTTomato.m */; };
+		804D6D181E89A29E00C98053 /* BTTomato.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D161E89A29E00C98053 /* BTTomato.m */; };
+		804D6D1C1E89A40E00C98053 /* BTBasket.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D1B1E89A40E00C98053 /* BTBasket.m */; };
+		804D6D1D1E89A40E00C98053 /* BTBasket.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D1B1E89A40E00C98053 /* BTBasket.m */; };
+		804D6D251E89AA8500C98053 /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D241E89AA8500C98053 /* BTViewController.m */; };
+		804D6D261E89AA8500C98053 /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D241E89AA8500C98053 /* BTViewController.m */; };
+		804D6D291E89AB5700C98053 /* BTShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D281E89AB5700C98053 /* BTShopViewController.m */; };
+		804D6D2A1E89AB5700C98053 /* BTShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D281E89AB5700C98053 /* BTShopViewController.m */; };
+		804D6D2E1E89ABA900C98053 /* BTCheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D2D1E89ABA900C98053 /* BTCheckoutViewController.m */; };
+		804D6D2F1E89ABA900C98053 /* BTCheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D2D1E89ABA900C98053 /* BTCheckoutViewController.m */; };
+		804D6D371E89AC3800C98053 /* BTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D351E89AC3800C98053 /* BTCollectionViewCell.m */; };
+		804D6D381E89AC3800C98053 /* BTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D351E89AC3800C98053 /* BTCollectionViewCell.m */; };
+		804D6D391E89AC3800C98053 /* BTCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804D6D361E89AC3800C98053 /* BTCollectionViewCell.xib */; };
+		804D6D3A1E89AC3800C98053 /* BTCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804D6D361E89AC3800C98053 /* BTCollectionViewCell.xib */; };
+		804D6D3E1E89B1A700C98053 /* BTShopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D3D1E89B1A700C98053 /* BTShopManager.m */; };
+		804D6D3F1E89B1A700C98053 /* BTShopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D3D1E89B1A700C98053 /* BTShopManager.m */; };
+		804D6D431E89B46000C98053 /* BTCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D421E89B46000C98053 /* BTCurrency.m */; };
+		804D6D441E89B46000C98053 /* BTCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D421E89B46000C98053 /* BTCurrency.m */; };
+		804D6D491E89C70A00C98053 /* BTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D481E89C70A00C98053 /* BTButton.m */; };
+		804D6D4A1E89C70A00C98053 /* BTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D481E89C70A00C98053 /* BTButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +70,34 @@
 		804D6CF01E89A08C00C98053 /* basketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		804D6CF41E89A08C00C98053 /* basketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = basketTests.m; sourceTree = "<group>"; };
 		804D6CF61E89A08C00C98053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804D6D051E89A25600C98053 /* BTFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTFood.h; sourceTree = "<group>"; };
+		804D6D061E89A25600C98053 /* BTFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTFood.m; sourceTree = "<group>"; };
+		804D6D091E89A27400C98053 /* BTBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBean.h; sourceTree = "<group>"; };
+		804D6D0A1E89A27400C98053 /* BTBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBean.m; sourceTree = "<group>"; };
+		804D6D0D1E89A28300C98053 /* BTMilk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMilk.h; sourceTree = "<group>"; };
+		804D6D0E1E89A28300C98053 /* BTMilk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMilk.m; sourceTree = "<group>"; };
+		804D6D111E89A28F00C98053 /* BTEgg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEgg.h; sourceTree = "<group>"; };
+		804D6D121E89A28F00C98053 /* BTEgg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEgg.m; sourceTree = "<group>"; };
+		804D6D151E89A29E00C98053 /* BTTomato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTomato.h; sourceTree = "<group>"; };
+		804D6D161E89A29E00C98053 /* BTTomato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTomato.m; sourceTree = "<group>"; };
+		804D6D1A1E89A40E00C98053 /* BTBasket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBasket.h; sourceTree = "<group>"; };
+		804D6D1B1E89A40E00C98053 /* BTBasket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBasket.m; sourceTree = "<group>"; };
+		804D6D231E89AA8500C98053 /* BTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
+		804D6D241E89AA8500C98053 /* BTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		804D6D271E89AB5700C98053 /* BTShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTShopViewController.h; sourceTree = "<group>"; };
+		804D6D281E89AB5700C98053 /* BTShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTShopViewController.m; sourceTree = "<group>"; };
+		804D6D2C1E89ABA900C98053 /* BTCheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCheckoutViewController.h; sourceTree = "<group>"; };
+		804D6D2D1E89ABA900C98053 /* BTCheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCheckoutViewController.m; sourceTree = "<group>"; };
+		804D6D341E89AC3800C98053 /* BTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCollectionViewCell.h; sourceTree = "<group>"; };
+		804D6D351E89AC3800C98053 /* BTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCollectionViewCell.m; sourceTree = "<group>"; };
+		804D6D361E89AC3800C98053 /* BTCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTCollectionViewCell.xib; sourceTree = "<group>"; };
+		804D6D3B1E89B0C000C98053 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		804D6D3C1E89B1A700C98053 /* BTShopManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTShopManager.h; sourceTree = "<group>"; };
+		804D6D3D1E89B1A700C98053 /* BTShopManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTShopManager.m; sourceTree = "<group>"; };
+		804D6D411E89B46000C98053 /* BTCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCurrency.h; sourceTree = "<group>"; };
+		804D6D421E89B46000C98053 /* BTCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCurrency.m; sourceTree = "<group>"; };
+		804D6D471E89C70A00C98053 /* BTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTButton.h; sourceTree = "<group>"; };
+		804D6D481E89C70A00C98053 /* BTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +139,11 @@
 		804D6CD61E89A08C00C98053 /* basket */ = {
 			isa = PBXGroup;
 			children = (
-				804D6CDA1E89A08C00C98053 /* AppDelegate.h */,
-				804D6CDB1E89A08C00C98053 /* AppDelegate.m */,
-				804D6CDD1E89A08C00C98053 /* ViewController.h */,
-				804D6CDE1E89A08C00C98053 /* ViewController.m */,
-				804D6CE01E89A08C00C98053 /* Main.storyboard */,
-				804D6CE61E89A08C00C98053 /* Assets.xcassets */,
-				804D6CE81E89A08C00C98053 /* LaunchScreen.storyboard */,
-				804D6CEB1E89A08C00C98053 /* Info.plist */,
-				804D6CE31E89A08C00C98053 /* basket.xcdatamodeld */,
+				804D6D1E1E89A74500C98053 /* Managers */,
+				804D6CFF1E89A1CF00C98053 /* Objects */,
+				804D6D211E89AA5F00C98053 /* View Controllers */,
+				804D6D311E89ABBF00C98053 /* Storyboards */,
+				804D6D331E89AC1600C98053 /* Views */,
 				804D6CD71E89A08C00C98053 /* Supporting Files */,
 			);
 			path = basket;
@@ -100,7 +152,14 @@
 		804D6CD71E89A08C00C98053 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				804D6CE31E89A08C00C98053 /* basket.xcdatamodeld */,
+				804D6D301E89ABB300C98053 /* App Delegates */,
+				804D6D321E89ABC900C98053 /* Assets */,
+				804D6CDD1E89A08C00C98053 /* ViewController.h */,
+				804D6CDE1E89A08C00C98053 /* ViewController.m */,
+				804D6CEB1E89A08C00C98053 /* Info.plist */,
 				804D6CD81E89A08C00C98053 /* main.m */,
+				804D6D3B1E89B0C000C98053 /* Constants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,6 +171,191 @@
 				804D6CF61E89A08C00C98053 /* Info.plist */,
 			);
 			path = basketTests;
+			sourceTree = "<group>";
+		};
+		804D6CFF1E89A1CF00C98053 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D401E89B44F00C98053 /* Currency */,
+				804D6D191E89A3FE00C98053 /* Basket */,
+				804D6D001E89A1DA00C98053 /* Food */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		804D6D001E89A1DA00C98053 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D051E89A25600C98053 /* BTFood.h */,
+				804D6D061E89A25600C98053 /* BTFood.m */,
+				804D6D041E89A1FD00C98053 /* Bean */,
+				804D6D031E89A1F700C98053 /* Milk */,
+				804D6D021E89A1F100C98053 /* Egg */,
+				804D6D011E89A1EB00C98053 /* Tomato */,
+			);
+			name = Food;
+			sourceTree = "<group>";
+		};
+		804D6D011E89A1EB00C98053 /* Tomato */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D151E89A29E00C98053 /* BTTomato.h */,
+				804D6D161E89A29E00C98053 /* BTTomato.m */,
+			);
+			name = Tomato;
+			sourceTree = "<group>";
+		};
+		804D6D021E89A1F100C98053 /* Egg */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D111E89A28F00C98053 /* BTEgg.h */,
+				804D6D121E89A28F00C98053 /* BTEgg.m */,
+			);
+			name = Egg;
+			sourceTree = "<group>";
+		};
+		804D6D031E89A1F700C98053 /* Milk */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D0D1E89A28300C98053 /* BTMilk.h */,
+				804D6D0E1E89A28300C98053 /* BTMilk.m */,
+			);
+			name = Milk;
+			sourceTree = "<group>";
+		};
+		804D6D041E89A1FD00C98053 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D091E89A27400C98053 /* BTBean.h */,
+				804D6D0A1E89A27400C98053 /* BTBean.m */,
+			);
+			name = Bean;
+			sourceTree = "<group>";
+		};
+		804D6D191E89A3FE00C98053 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D1A1E89A40E00C98053 /* BTBasket.h */,
+				804D6D1B1E89A40E00C98053 /* BTBasket.m */,
+			);
+			name = Basket;
+			sourceTree = "<group>";
+		};
+		804D6D1E1E89A74500C98053 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D201E89A77000C98053 /* Shop */,
+				804D6D1F1E89A74C00C98053 /* Currency API Manager */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		804D6D1F1E89A74C00C98053 /* Currency API Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Currency API Manager";
+			sourceTree = "<group>";
+		};
+		804D6D201E89A77000C98053 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D3C1E89B1A700C98053 /* BTShopManager.h */,
+				804D6D3D1E89B1A700C98053 /* BTShopManager.m */,
+			);
+			name = Shop;
+			sourceTree = "<group>";
+		};
+		804D6D211E89AA5F00C98053 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D231E89AA8500C98053 /* BTViewController.h */,
+				804D6D241E89AA8500C98053 /* BTViewController.m */,
+				804D6D221E89AA6E00C98053 /* Shop View Controller */,
+				804D6D2B1E89AB8300C98053 /* Checkout View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		804D6D221E89AA6E00C98053 /* Shop View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D271E89AB5700C98053 /* BTShopViewController.h */,
+				804D6D281E89AB5700C98053 /* BTShopViewController.m */,
+			);
+			name = "Shop View Controller";
+			sourceTree = "<group>";
+		};
+		804D6D2B1E89AB8300C98053 /* Checkout View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D2C1E89ABA900C98053 /* BTCheckoutViewController.h */,
+				804D6D2D1E89ABA900C98053 /* BTCheckoutViewController.m */,
+			);
+			name = "Checkout View Controller";
+			sourceTree = "<group>";
+		};
+		804D6D301E89ABB300C98053 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				804D6CDA1E89A08C00C98053 /* AppDelegate.h */,
+				804D6CDB1E89A08C00C98053 /* AppDelegate.m */,
+			);
+			name = "App Delegates";
+			sourceTree = "<group>";
+		};
+		804D6D311E89ABBF00C98053 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				804D6CE01E89A08C00C98053 /* Main.storyboard */,
+				804D6CE81E89A08C00C98053 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		804D6D321E89ABC900C98053 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				804D6CE61E89A08C00C98053 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		804D6D331E89AC1600C98053 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D461E89C6F700C98053 /* Button */,
+				804D6D451E89C6EF00C98053 /* Cell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		804D6D401E89B44F00C98053 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D411E89B46000C98053 /* BTCurrency.h */,
+				804D6D421E89B46000C98053 /* BTCurrency.m */,
+			);
+			name = Currency;
+			sourceTree = "<group>";
+		};
+		804D6D451E89C6EF00C98053 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D341E89AC3800C98053 /* BTCollectionViewCell.h */,
+				804D6D351E89AC3800C98053 /* BTCollectionViewCell.m */,
+				804D6D361E89AC3800C98053 /* BTCollectionViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		804D6D461E89C6F700C98053 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				804D6D471E89C70A00C98053 /* BTButton.h */,
+				804D6D481E89C70A00C98053 /* BTButton.m */,
+			);
+			name = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +444,7 @@
 			files = (
 				804D6CEA1E89A08C00C98053 /* LaunchScreen.storyboard in Resources */,
 				804D6CE71E89A08C00C98053 /* Assets.xcassets in Resources */,
+				804D6D391E89AC3800C98053 /* BTCollectionViewCell.xib in Resources */,
 				804D6CE21E89A08C00C98053 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +453,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804D6D3A1E89AC3800C98053 /* BTCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +465,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				804D6CDF1E89A08C00C98053 /* ViewController.m in Sources */,
+				804D6D491E89C70A00C98053 /* BTButton.m in Sources */,
+				804D6D0B1E89A27400C98053 /* BTBean.m in Sources */,
+				804D6D3E1E89B1A700C98053 /* BTShopManager.m in Sources */,
 				804D6CE51E89A08C00C98053 /* basket.xcdatamodeld in Sources */,
+				804D6D1C1E89A40E00C98053 /* BTBasket.m in Sources */,
+				804D6D291E89AB5700C98053 /* BTShopViewController.m in Sources */,
+				804D6D2E1E89ABA900C98053 /* BTCheckoutViewController.m in Sources */,
+				804D6D131E89A28F00C98053 /* BTEgg.m in Sources */,
+				804D6D431E89B46000C98053 /* BTCurrency.m in Sources */,
+				804D6D071E89A25600C98053 /* BTFood.m in Sources */,
+				804D6D0F1E89A28300C98053 /* BTMilk.m in Sources */,
 				804D6CDC1E89A08C00C98053 /* AppDelegate.m in Sources */,
+				804D6D171E89A29E00C98053 /* BTTomato.m in Sources */,
+				804D6D251E89AA8500C98053 /* BTViewController.m in Sources */,
+				804D6D371E89AC3800C98053 /* BTCollectionViewCell.m in Sources */,
 				804D6CD91E89A08C00C98053 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +489,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				804D6CF51E89A08C00C98053 /* basketTests.m in Sources */,
+				804D6D181E89A29E00C98053 /* BTTomato.m in Sources */,
+				804D6D261E89AA8500C98053 /* BTViewController.m in Sources */,
+				804D6D0C1E89A27400C98053 /* BTBean.m in Sources */,
+				804D6D2A1E89AB5700C98053 /* BTShopViewController.m in Sources */,
+				804D6D4A1E89C70A00C98053 /* BTButton.m in Sources */,
+				804D6D3F1E89B1A700C98053 /* BTShopManager.m in Sources */,
+				804D6D141E89A28F00C98053 /* BTEgg.m in Sources */,
+				804D6D2F1E89ABA900C98053 /* BTCheckoutViewController.m in Sources */,
+				804D6D101E89A28300C98053 /* BTMilk.m in Sources */,
+				804D6D081E89A25600C98053 /* BTFood.m in Sources */,
+				804D6D441E89B46000C98053 /* BTCurrency.m in Sources */,
+				804D6D381E89AC3800C98053 /* BTCollectionViewCell.m in Sources */,
+				804D6D1D1E89A40E00C98053 /* BTBasket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

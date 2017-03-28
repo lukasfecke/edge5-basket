@@ -10,14 +10,14 @@
 
 @implementation BTCurrency
 
-- (id)initWithName:(NSString *)currencyName andWithSign:(NSString *)currencySign andWithExchangeRateVsDollar:(float)exchangeRate
+- (id)initWithName:(NSString *)currencyName andWithExchangeRateVsDollar:(float)exchangeRate
 {
     self = [super init];
     
     if (self)
     {
         self.currencyName = currencyName;
-        self.currencySign = currencySign;
+//        self.currencySign = currencySign;
         self.exchangeRateVsDollar = exchangeRate;
     }
     

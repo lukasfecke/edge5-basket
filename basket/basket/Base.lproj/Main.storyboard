@@ -71,6 +71,9 @@
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="bhi-fR-7cl" kind="show" id="Sdm-vW-tWv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="8sd-IB-Q60">
                                 <rect key="frame" x="231" y="519" width="128" height="128"/>
@@ -99,6 +102,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-282.39999999999998" y="287.40629685157421"/>
+        </scene>
+        <!--Checkout-->
+        <scene sceneID="qan-Nq-4lw">
+            <objects>
+                <viewController id="bhi-fR-7cl" customClass="BTCheckoutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pWX-kZ-ddR"/>
+                        <viewControllerLayoutGuide type="bottom" id="0x1-xc-Wrq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UJm-P8-nB0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ax-4p-rZG">
+                                <rect key="frame" x="37" y="64" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="basket"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="checkout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AmL-TE-6Ep"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="hXW-21-Wh6">
+                                <rect key="frame" x="37" y="64" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9xV-kv-x21">
+                                <rect key="frame" x="0.0" y="372" width="375" height="295"/>
+                                <color key="backgroundColor" red="1" green="0.042382737820000002" blue="0.017658197550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="295" id="Nac-xG-Uxs"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="bhi-fR-7cl" id="2cq-qQ-tfq"/>
+                                    <outlet property="delegate" destination="bhi-fR-7cl" id="N8j-fz-tSe"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Ax-4p-rZG" firstAttribute="centerX" secondItem="9xV-kv-x21" secondAttribute="centerX" id="3hg-Ow-DdC"/>
+                            <constraint firstItem="9xV-kv-x21" firstAttribute="top" secondItem="7Ax-4p-rZG" secondAttribute="bottom" constant="8" symbolic="YES" id="Axe-JT-Y5f"/>
+                            <constraint firstItem="9xV-kv-x21" firstAttribute="bottom" secondItem="0x1-xc-Wrq" secondAttribute="top" id="J30-XH-ZGj"/>
+                            <constraint firstItem="7Ax-4p-rZG" firstAttribute="top" secondItem="hXW-21-Wh6" secondAttribute="top" id="Qvi-XV-0l0"/>
+                            <constraint firstItem="7Ax-4p-rZG" firstAttribute="leading" secondItem="UJm-P8-nB0" secondAttribute="leadingMargin" constant="21" id="eZv-bm-kIp"/>
+                            <constraint firstAttribute="trailing" secondItem="9xV-kv-x21" secondAttribute="trailing" id="gIo-7C-4pE"/>
+                            <constraint firstItem="7Ax-4p-rZG" firstAttribute="top" secondItem="pWX-kZ-ddR" secondAttribute="bottom" id="iFP-yV-fs7"/>
+                            <constraint firstItem="9xV-kv-x21" firstAttribute="leading" secondItem="UJm-P8-nB0" secondAttribute="leading" id="o8B-b2-Xaf"/>
+                            <constraint firstItem="7Ax-4p-rZG" firstAttribute="trailing" secondItem="hXW-21-Wh6" secondAttribute="trailing" id="pHW-6K-0VF"/>
+                            <constraint firstItem="hXW-21-Wh6" firstAttribute="leading" secondItem="7Ax-4p-rZG" secondAttribute="leading" id="rpl-ma-X6B"/>
+                            <constraint firstItem="9xV-kv-x21" firstAttribute="top" secondItem="hXW-21-Wh6" secondAttribute="bottom" constant="8" symbolic="YES" id="vm3-ew-jDD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Checkout" id="7Vi-9a-Ehg"/>
+                    <connections>
+                        <outlet property="priceLabel" destination="hXW-21-Wh6" id="3sS-QO-HpK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YZ7-jv-e64" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="576.79999999999995" y="287.40629685157421"/>
         </scene>
     </scenes>
     <resources>

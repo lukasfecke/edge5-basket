@@ -7,7 +7,10 @@
 //
 
 #import "BTViewController.h"
+#import "BTShopManager.h"
 
 @interface BTCheckoutViewController : BTViewController
+
+@property(nonatomic,strong) id<ShopManagerDelegate> delegate;
 
 @end

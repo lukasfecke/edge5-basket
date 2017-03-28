@@ -19,8 +19,10 @@
 - (void)addFoodToBasket:(BTFood *)food;
 - (void)emptyBasket;
 - (void)setCustomCurrentViewController:(BTViewController *)viewController;
-- (void)setCurrency:(NSString *)currency;
+- (void)setCurrencyAtIndex:(NSInteger)currencyIndex;
 - (float)getTotalPriceInCurrentCurrency;
+- (NSString *)retrieveActiveCurrencyName;
+- (NSMutableArray *)retrieveAllCurrencies;
 - (NSMutableArray *)retrieveAllFood;
 - (NSMutableArray *)retrieveAllFoodInBasket;
 

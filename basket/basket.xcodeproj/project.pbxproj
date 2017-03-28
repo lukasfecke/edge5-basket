@@ -43,6 +43,8 @@
 		804D6D441E89B46000C98053 /* BTCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D421E89B46000C98053 /* BTCurrency.m */; };
 		804D6D491E89C70A00C98053 /* BTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D481E89C70A00C98053 /* BTButton.m */; };
 		804D6D4A1E89C70A00C98053 /* BTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D481E89C70A00C98053 /* BTButton.m */; };
+		804D6D4D1E89DE5100C98053 /* BTCurrencyAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D4C1E89DE5100C98053 /* BTCurrencyAPIManager.m */; };
+		804D6D4E1E89DE5100C98053 /* BTCurrencyAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D6D4C1E89DE5100C98053 /* BTCurrencyAPIManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,8 @@
 		804D6D421E89B46000C98053 /* BTCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCurrency.m; sourceTree = "<group>"; };
 		804D6D471E89C70A00C98053 /* BTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTButton.h; sourceTree = "<group>"; };
 		804D6D481E89C70A00C98053 /* BTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTButton.m; sourceTree = "<group>"; };
+		804D6D4B1E89DE5100C98053 /* BTCurrencyAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCurrencyAPIManager.h; sourceTree = "<group>"; };
+		804D6D4C1E89DE5100C98053 /* BTCurrencyAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCurrencyAPIManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +257,8 @@
 		804D6D1F1E89A74C00C98053 /* Currency API Manager */ = {
 			isa = PBXGroup;
 			children = (
+				804D6D4B1E89DE5100C98053 /* BTCurrencyAPIManager.h */,
+				804D6D4C1E89DE5100C98053 /* BTCurrencyAPIManager.m */,
 			);
 			name = "Currency API Manager";
 			sourceTree = "<group>";
@@ -471,6 +477,7 @@
 				804D6CE51E89A08C00C98053 /* basket.xcdatamodeld in Sources */,
 				804D6D1C1E89A40E00C98053 /* BTBasket.m in Sources */,
 				804D6D291E89AB5700C98053 /* BTShopViewController.m in Sources */,
+				804D6D4D1E89DE5100C98053 /* BTCurrencyAPIManager.m in Sources */,
 				804D6D2E1E89ABA900C98053 /* BTCheckoutViewController.m in Sources */,
 				804D6D131E89A28F00C98053 /* BTEgg.m in Sources */,
 				804D6D431E89B46000C98053 /* BTCurrency.m in Sources */,
@@ -498,6 +505,7 @@
 				804D6D141E89A28F00C98053 /* BTEgg.m in Sources */,
 				804D6D2F1E89ABA900C98053 /* BTCheckoutViewController.m in Sources */,
 				804D6D101E89A28300C98053 /* BTMilk.m in Sources */,
+				804D6D4E1E89DE5100C98053 /* BTCurrencyAPIManager.m in Sources */,
 				804D6D081E89A25600C98053 /* BTFood.m in Sources */,
 				804D6D441E89B46000C98053 /* BTCurrency.m in Sources */,
 				804D6D381E89AC3800C98053 /* BTCollectionViewCell.m in Sources */,

@@ -16,5 +16,5 @@
 @property(nonatomic,assign) float exchangeRateVsDollar;
 
 //methods
-- (id)initWithName:(NSString *)currencyName andWithSign:(NSString *)currencySign andWithExchangeRateVsDollar:(float)exchangeRate;
+- (id)initWithName:(NSString *)currencyName andWithExchangeRateVsDollar:(float)exchangeRate;
 @end

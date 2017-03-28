@@ -14,6 +14,8 @@
 #import "BTEgg.h"
 #import "BTMilk.h"
 #import "BTTomato.h"
+#import "BTCurrencyAPIManager.h"
+#import "BTCheckoutViewController.h"
 
 @interface BTShopViewController ()
 //@property(nonatomic,strong) NSMutableArray *food;
@@ -46,6 +48,13 @@ static BOOL nibMyCellloaded = NO;
     [self.delegate setCustomCurrentViewController:self];
     self.priceLabel.layer.masksToBounds = YES;
     self.priceLabel.layer.cornerRadius = 20;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [self.delegate setCustomCurrentViewController:self];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -104,11 +113,19 @@ static BOOL nibMyCellloaded = NO;
 }
 
 
+- (IBAction)checkout:(id)sender
+{
+    [BTCurrencyAPIManager downloadCurrenciesWithBlock:^(NSDictionary *currencies){
+        NSDictionary *dict = [currencies objectForKey:@"quotes"];
+        NSLog(@"%@", dict);
+    }];
+}
+
 #pragma mark - Navigation
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    BTCheckoutViewController *vc = (BTCheckoutViewController *)[segue destinationViewController];
+    [vc setDelegate:self.delegate];
 }
 
 @end

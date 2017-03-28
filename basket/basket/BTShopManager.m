@@ -7,6 +7,7 @@
 //
 
 #import "BTShopManager.h"
+#import "BTCurrencyAPIManager.h"
 
 @implementation BTShopManager
 
@@ -27,8 +28,25 @@
 
 - (void)setupCurrencies
 {
-    self.activeCurrency = [[BTCurrency alloc] initWithName:@"USD" andWithSign:@"$" andWithExchangeRateVsDollar:1.];
-    //todo: methods for the retrieving currencies trough api manager and populate array
+//    self.activeCurrency = [[BTCurrency alloc] initWithName:@"USD" andWithExchangeRateVsDollar:1.];
+    self.currencies = [[NSMutableArray alloc] init];
+    
+    [BTCurrencyAPIManager downloadCurrenciesWithBlock:^(NSDictionary *currencies){
+        __block NSDictionary *dict = [currencies objectForKey:@"quotes"];
+        __block NSMutableArray *currenciesNames = [[NSMutableArray alloc] initWithObjects:@"USDAUD", @"USDCAD", @"USDEUR", @"USDMXN", @"USDPLN", @"USDUSD", nil];
+        [currenciesNames enumerateObjectsUsingBlock:^(id object, NSUInteger inde, BOOL *stop){
+            if ([object isKindOfClass:[NSString class]])
+            {
+                NSString *name = (NSString *)object;
+                BTCurrency *currency = [[BTCurrency alloc] initWithName:[name substringFromIndex:3] andWithExchangeRateVsDollar:[[dict objectForKey:name] floatValue]];
+                [self.currencies addObject:currency];
+                if ([name isEqualToString:@"USDUSD"])
+                {
+                    self.activeCurrency = currency;
+                }
+            }
+        }];
+    }];
 }
 
 - (void)addFoodToBasket:(BTFood *)food
@@ -42,9 +60,10 @@
     [self.basket clear];
 }
 
-- (void)setCurrency:(NSString *)currency
+- (void)setCurrencyAtIndex:(NSInteger)currencyIndex
 {
-    self.currency = currency;
+    self.activeCurrency = [self.currencies objectAtIndex:currencyIndex];
+    [self.currentViewController updateUI];
 }
 
 - (float)getTotalPriceInCurrentCurrency
@@ -72,4 +91,13 @@
     self.currentViewController = viewController;
 }
 
+- (NSMutableArray *)retrieveAllCurrencies
+{
+    return self.currencies;
+}
+
+- (NSString *)retrieveActiveCurrencyName
+{
+    return [self.activeCurrency currencyName];
+}
 @end

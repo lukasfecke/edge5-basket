@@ -72,6 +72,8 @@
     
     price *= [self.activeCurrency exchangeRateVsDollar];
     
+    [self setupCurrencies];
+    
     return price;
 }
 

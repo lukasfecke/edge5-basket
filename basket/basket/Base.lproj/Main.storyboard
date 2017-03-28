@@ -93,7 +93,18 @@
                             <constraint firstItem="s2L-mb-acF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="s2I-Wl-fmx"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Shop" id="yyZ-IN-bHG"/>
+                    <navigationItem key="navigationItem" title="Shop" id="yyZ-IN-bHG">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="vSo-Fw-zNb">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="C2d-b4-p6F">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clearBasket:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dni-86-Q4J"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="colectionView" destination="s2L-mb-acF" id="pHC-g8-cws"/>
                         <outlet property="priceLabel" destination="8sd-IB-Q60" id="bfm-dw-fzl"/>
@@ -137,7 +148,7 @@
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9xV-kv-x21">
                                 <rect key="frame" x="0.0" y="372" width="375" height="295"/>
-                                <color key="backgroundColor" red="1" green="0.042382737820000002" blue="0.017658197550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="0.8829195205479452" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="295" id="Nac-xG-Uxs"/>
                                 </constraints>

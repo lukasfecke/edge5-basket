@@ -121,6 +121,12 @@ static BOOL nibMyCellloaded = NO;
     }];
 }
 
+- (IBAction)clearBasket:(id)sender
+{
+    [self.delegate emptyBasket];
+    [self updateUI];
+}
+
 #pragma mark - Navigation
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
